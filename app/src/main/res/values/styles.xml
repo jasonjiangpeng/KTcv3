@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="MyBitmapViewAnother">
+        <!--背景图片属性，其属性值可以是res中的资源文件-->
+        <attr name="mybitmapviewanother_background" format="reference"></attr>
+        <!--擦除画笔宽度属性，其属性值可以是具体的值"10dp",也可以是res中的资源文件-->
+        <attr name="mybitmapviewanother_paintwidth" format="dimension|reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name = "CameraBridgeViewBase" >
+        <attr name="show_fps" format="boolean"/>
+        <attr name="camera_id" format="integer" >
+            <enum name="any" value="-1" />
+            <enum name="back" value="99" />
+            <enum name="front" value="98" />
+        </attr>
+    </declare-styleable>
+</resources>

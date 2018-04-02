@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ktcv</string>
+
+
+    <string name="xpoint">区域坐标 X</string>
+    <string name="ypoint">区域坐标 Y</string>
+    <string name="arealength">区域长度</string>
+    <string name="areaWitch">区域宽度</string>
+    <string name="rows">行</string>
+    <string name="cols">列</string>
+    <string name="stutaschange">事件状态</string>
+    <string name="focuschang">事件编号</string>
+    <string name="containerszie">事件数量</string>
+    <string name="accessibility_desc">testsxzcz</string>
+</resources>
